@@ -85,7 +85,8 @@ make bonus  && ./fdf ./test_maps/42.fdf
 ```
 Output should be:
 
-![FdF_1](https://github.com/vcereced/fdf/assets/120835200/8e46d15f-7f97-40f8-9223-c4887e26b246)
+<img width="521" alt="Screen Shot 2024-03-06 at 12 35 29 PM" src="https://github.com/vcereced/fdf/assets/120835200/8e46d15f-7f97-40f8-9223-c4887e26b246">
+
 
 
 
