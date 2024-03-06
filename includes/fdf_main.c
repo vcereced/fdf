@@ -14,7 +14,7 @@
 
 static void	init_point(t_point *p)
 {
-	(*p).scale = 30;
+	(*p).scale = 20;
 	(*p).flag = 0;
 	p->start_x = 650;
 	p->start_y = -650;

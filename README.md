@@ -70,15 +70,16 @@ FdF is a project in which we convert a file with a grid of height values into a 
 Let's create a ``example.fdf`` file with a grid of heights of the map.
 
 ```
-0 0 1 2 3 4 5 6 7 8 9
-0 0 0 1 2 3 4 5 6 7 8
-0 0 0 0 1 2 3 4 5 6 7
-0 0 0 0 0 1 2 3 4 5 6
-0 0 0 0 0 0 1 2 3 4 5
-0 0 0 0 0 0 0 1 2 3 4
-0 0 0 0 0 0 0 0 1 2 3
-0 0 0 0 0 0 0 0 0 1 2
-0 0 0 0 0 0 0 0 0 0 1
+15 12 10 9  5  4  0  0  0  0
+12 10 9  5  4  0  0  0  0  0
+10 9  5  4  0  0  2  0  0  0
+9  5  4  0  0  2  5  2  0  0
+5  4  0  0  2  5  8  5  2  0
+5  4  0  0  0  2  5  2  0  0
+9  5  4  0  0  0  2  0  0  0
+10 9  5  4  0  0  0  0  0  0
+10 10 9  5  4  0  0  0  0  0
+15 12 10 9  5  4  0  0  0  0
 ```
 Execute this command in the terminal.
 
@@ -86,9 +87,8 @@ Execute this command in the terminal.
 make  && ./fdf ./example.fdf 
 ```
 Output should be:
-```
-IMAGEN!!!!!!!!!!
-```
+
+
 With bonus features.
 ```bash
 make bonus  && ./fdf ./42.fdf 
