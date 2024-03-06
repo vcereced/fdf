@@ -20,11 +20,10 @@
 </p>
 
 ## &#x1F4CC; Index 
-- [📌 Index](#-index)
-- [✨ What is FdF?](#-what-is-fdf)
-- [🕹 Controles](#-controles)
-- [💻 Usage](#-usage)
-- [📖 Examples](#-examples)
+- [What is FdF?](#-what-is-fdf)
+- [Controles](#-controles)
+- [Usage](#-usage)
+- [Examples](#-examples)
 
 ## &#x2728; What is FdF?
 
@@ -34,26 +33,16 @@ FdF is a project in which we convert a file with a grid of height values into a 
 
 |Input|Action|
 |---|---|
-|`Mouse (Right Clicked)`| X/Y axis Rotation|
-|`Mouse (Left Clicked)`| Traslation|
-|`Mouse Scroll`| Zomm In/Out|
-|`Arrows`| X/Y axis Rotation. Cmd cliked +90ª|
-|`Q / W`| Z axis Rotation. Cmd cliked +90ª|
-|`+ / -`| Z axis divisor|
-|`L`| Lines ON /OFF|
-|`D`| Dots ON /OFF|
-|`X`| Extra Wired ON /OFF|
-|`G`| GEO view ON /OFF|
-|`H`| On GEO view Shadow side ON /OFF|
-|`I`| ISOMETRIC view |
-|`P`| PARALEL view |
-|`S`| Make the magic happends |
-|`B / Cmd+B`| Blendig + / -|
-|`1`| Terrain Color Scheme|
-|`2`| White & Black Color Scheme|
-|`3`| Black & White Color Scheme|
-|`4`| Earth Color Scheme|
-|`ESC ❌`|Cierra la ventana|
+|`UP`| Increasing heights|
+|`DONW`|  Decreasing heights|
+|`4 / 8 / 6 / 2`| X axis Y axis movements|
+|`/`| Increasing zoom |
+|`*`| Decreasing zoom |
+|`+`| Increasing scale|
+|`-`| Decreasing scale|
+|`2`| change isometric mode |
+|`3`| change isometric mode|
+|`ESC`|Cierra la ventana|
 
 ## &#x1F4BB; Usage
 
@@ -88,14 +77,20 @@ make  && ./fdf ./example.fdf
 ```
 Output should be:
 
+<img width="521" alt="Screen Shot 2024-03-06 at 12 35 29 PM" src="https://github.com/vcereced/fdf/assets/120835200/355e7150-8a12-4849-983e-38bcc1bdc5ea">
 
 With bonus features.
 ```bash
-make bonus  && ./fdf ./42.fdf 
+make bonus  && ./fdf ./test_maps/42.fdf 
 ```
 Output should be:
-```
-IMAGEN!!!!!!!!!!
-```
+
+![FdF_1](https://github.com/vcereced/fdf/assets/120835200/8e46d15f-7f97-40f8-9223-c4887e26b246)
+
+
+
+
+
+
 
 
