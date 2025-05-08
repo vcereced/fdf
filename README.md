@@ -19,12 +19,6 @@
   
 </p>
 
-## &#x1F4CC; Index 
-- [What is FdF?](#-what-is-fdf)
-- [Controles](#-controles)
-- [Usage](#-usage)
-- [Examples](#-examples)
-
 ## &#x2728; What is FdF?
 
 FdF is a project in which we convert a file with a grid of height values into a 3d wireframe using a simple graphics.
